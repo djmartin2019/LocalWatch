@@ -1,0 +1,37 @@
+# dependencies
+node_modules/
+.pnp
+.pnp.*
+
+# env files
+.env
+.env.*
+
+# build outputs
+.next/
+out/
+dist/
+build/
+*.tsbuildinfo
+
+# logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+
+# OS / editor
+.DS_Store
+*.pem
+.idea/
+.vscode/
+
+# turbo
+.turbo/
+
+# accidental macOS duplicate files
+* 2.json
+* 2.yaml
+* 2.yml
+
+# vercel
+.vercel

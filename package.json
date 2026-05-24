@@ -1,0 +1,23 @@
+{
+  "name": "local-watch",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+      "dev:dashboard": "pnpm --filter dashboard dev",
+      "dev:collector": "pnpm --filter collector dev",
+      "dev:desktop": "pnpm --filter desktop dev",
+
+      "dev": "concurrently \"pnpm dev:collector\" \"pnpm dev:dashboard\" \"pnpm dev:desktop\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.26.0",
+  "devDependencies": {
+    "@types/node": "^25.9.1",
+    "concurrently": "^9.2.1",
+    "turbo": "^2.9.14",
+    "typescript": "^6.0.3"
+  }
+}

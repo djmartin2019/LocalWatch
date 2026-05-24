@@ -1,0 +1,23 @@
+{
+  "name": "desktop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/main.ts",
+  "scripts": {
+    "dev": "electronmon ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.26.0",
+  "dependencies": {
+    "electron": "^42.2.0"
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.1",
+    "electronmon": "^2.0.4",
+    "tsx": "^4.22.3",
+    "typescript": "^6.0.3",
+    "wait-on": "^9.0.10"
+  }
+}
