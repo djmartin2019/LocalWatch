@@ -55,6 +55,17 @@ This project demonstrates systems-level integration (packet capture via Wireshar
 
 ---
 
+## Documentation
+
+| App | Description |
+|-----|-------------|
+| [Collector](./apps/collector/README.md) | Packet capture, aggregation, and WebSocket event streaming |
+| [Dashboard](./apps/dashboard/README.md) | Electron desktop client (Next.js UI + live metrics) |
+| [Desktop shell](./apps/desktop/README.md) | Electron window that hosts the dashboard |
+| [Docs index](./docs/README.md) | Full documentation map |
+
+---
+
 ## Tech stack
 
 | Layer | Technology |
